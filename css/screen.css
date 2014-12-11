@@ -1,0 +1,234 @@
+/* 
+    Site: www.mydreamdiaries.com
+    Created on : Jun 10, 2014, 11:18:14 PM
+    Author     : Miquelyn Hollingsworth
+*/
+
+html{
+    background-color: #043a6b; /*blue*/
+}
+
+*{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 108%;
+    background-color: #fff; /*white*/
+    margin: 3% 15%;
+    padding: 1em 3em;
+    border: .1em solid #000;
+}
+
+h1{
+   font-family: georgia, serif;
+   font-size: 2em;
+   color: #ff1800; /*red*/
+   max-width: 100%;
+}
+
+h2{
+    font-family: georgia, serif;
+    font-size: 1.75em;
+    max-width: 100%;
+}
+
+.about {
+    border: .1em solid #000;
+    margin: 3em 0 0 0;
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+.episodes {
+    border: .1em solid #000;
+    margin: 1em 0 0 0;
+    padding: 0 2em;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+/****
+ADD CSS FOR ALL PREVIOUS MAIN
+****/
+
+
+img {
+    max-width: 100%;
+}
+
+.bio {
+    border: .1em solid #000;
+    margin: 3em 0 0 0;
+    padding: .5em 1em 7em 1em;
+    display: block;
+}
+
+.biotitle {
+    margin: 1em 0 0 0;
+}
+
+.biophoto {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    margin: 1em 2em 1em .75em;
+}
+
+audio {
+    max-width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+#page_header {
+    max-width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+#navbar {
+    width: 100%;
+    min-width: 75%;
+    float: left;
+    text-align: center;
+    background-color: #ffd300 /*yellow*/;
+}
+
+#navbar ul {
+    display: inline;
+    padding: 0px;
+    text-align: center;
+}
+#navbar  ul li {
+    display: block;
+    position: relative;
+    float: left;
+    border:1px solid #ffd300; /*yellow*/
+}
+#navbar li ul {
+    display: none;
+}
+#navbar  ul li a {
+    display: block;
+    background: #ffd300; /*yellow*/
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #000; /*black*/
+}
+#navbar  ul li a:hover {
+    background: #ffe773; /*light yellow*/
+}
+#navbar  li:hover ul {
+    display: block; 
+    position: absolute;
+}
+#navbar  li:hover li {
+    float: none;
+}
+#navbar  li:hover a {
+    background: #ffd300; /*yellow*/
+}
+#navbar li:hover li a:hover {
+    background: #ffe773; /*light yellow*/
+}
+#navbar  #drop-nav li ul li {
+    border-top: 0px;
+}
+
+
+#subMenu {
+    text-align: center;
+    background-color: #408dd2; /*blue*/
+    color: #fff /*white*/
+}
+
+/*unvisited link*/
+a:link {
+    color: #000; /*black*/
+}
+
+/*visited link*/
+a:visited {
+    color: #000 /*black*/
+}
+
+/*selected link*/
+a:active {
+    color: #fff /*white*/
+}
+
+#foot {
+    text-align: center;
+    background-color: #ffd300; /*yellow*/
+}
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+/*@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px){
+    .span_1 {
+        width: 45%;
+    }
+    
+    #banner {
+        height: 148px;
+        width:480px;
+        background-image: url('/images/logo-medium.png');
+        background-repeat: no-repeat;
+    }
+    
+    body {
+        width: 480px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.span_1 {
+		width: 100%;
+	}
+    
+    #banner {
+        padding: 0px;
+        margin: 0px;
+        height: 77px;
+        width: 400px;
+        background-image: url('/images/logo-small.png');
+        background-repeat: no-repeat;
+    }
+    
+    body {
+        width: 400px;
+    }
+}
+
+    #div1 {
+        width:350px;
+        height:70px;
+        padding:10px;
+        border:1px solid #aaaaaa;
+    }
+
+*/
+
