@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="similar_books"
+<div class="similar_books">
             <h1>Similar Books</h1>
             <ul>
                 <li><a href="http://deseretbook.com/Hourglass-Door-Lisa-Mangum/i/5018584">The Hourglass Door</a> by Lisa Mangum</li>

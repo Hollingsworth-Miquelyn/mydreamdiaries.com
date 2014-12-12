@@ -1,7 +1,7 @@
 <?php
 ?>
 <div id="contactus">
-        <h1>Contact Us</h1>
+        <h1>Contact Me</h1>
         <?php 
           if(!empty($reply)){
               echo "<p class='notify'>$reply</p>";
@@ -15,23 +15,23 @@
 
    <label for="firstname">First Name:</label>
 
-   <input type="text" name="firstname" id="firstname" size="10" value = "<?php echo $firstname; ?>" required> <br>
+   <input type="text" name="firstname" id="firstname" size="10" required> <br>
 
    <label for="lastname">Last Name:</label>
 
-   <input type="text" name="lastname" id="lastname" size="15" value="<?php echo $lastname; ?>" required> <br>
+   <input type="text" name="lastname" id="lastname" size="15" required> <br>
 
    <label for="email">Email Address:</label>
 
-   <input type="email" name="email" id="email" size="30" value="<?php echo $email; ?>" required> <br>
+   <input type="email" name="email" id="email" size="30" required> <br>
 
    <label for="subject">Subject:</label>
 
-   <input type="text" name="subject" id="subject" size="60" value="<?php echo $subject; ?>" required> <br>
+   <input type="text" name="subject" id="subject" size="60" required> <br>
 
    <label for="message">Message</label>
 
-   <textarea name="message" id="message" rows="10" cols="60" required> <?php echo $message; ?></textarea>
+   <textarea name="message" id="message" rows="10" cols="60" required> </textarea>
                 
    <p>Answer the following CAPTCHA question in the box below.</p>
 

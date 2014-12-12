@@ -2,14 +2,13 @@
 /*
  * Author: Miquelyn Hollingsworth
  */
-//ini_set('display_errors', '1');
+
 
 session_start();
 
 require 'models/database.php';
 require 'models/db.php';
 require 'models/users.php';
-//require 'models/comments.php';
 require 'models/episodes.php';
 require 'models/navigation.php';
 require 'models/roles.php';

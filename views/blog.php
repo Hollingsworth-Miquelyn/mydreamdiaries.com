@@ -18,13 +18,13 @@
        
         if ($action == 'blog' ) {?>
  
-    <article id="episode">
+    <article>
         <h1><?php echo $episode["title"]; ?></h1>
         <?php echo html_entity_decode($episode["episode"]); ?>     
     </article>
     
     <?php } elseif ($action == 'pirateepisodes' || $action == 'growerepisodes') {?>
-        <a href="/?action=showepisode&id=<?php echo $episode['id'];?>"><?php echo $episode["title"]; ?></a><br>
+        <a href="/?action=showepisode&amp;id=<?php echo $episode['id'];?>"><?php echo $episode["title"]; ?></a><br>
         
         <!--link goes  blank page-->
         <?php
