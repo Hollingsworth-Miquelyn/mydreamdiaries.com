@@ -46,8 +46,8 @@ h2{
 
 .episodes {
     border: .1em solid #000;
-    margin: 1em 0 0 0;
-    padding: 0 2em;
+    margin: 3em 0 0 0;
+    padding: 0 2em 1em;
     font-size: 1em;
     width: 100%;
     max-width: 100%;
@@ -179,56 +179,68 @@ a:active {
 
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-/*@media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}
-
-@media only screen and (min-width: 481px) and (max-width: 800px){
-    .span_1 {
-        width: 45%;
-    }
-    
-    #banner {
-        height: 148px;
-        width:480px;
-        background-image: url('/images/logo-medium.png');
-        background-repeat: no-repeat;
-    }
-    
+/*Smartphones portrait*/
+@media screen and (max-device-width: 320px) and (orientation: portrait) {
     body {
-        width: 480px;
+        margin: .5em;
+        padding: 1em;
     }
+    
+    #navbar {
+        padding: 0;
+    }
+      
+    .about {
+        margin: 7em 0 0 0;
+        padding: .5em;
+    }
+    
+    .posts {
+        padding: 0 .55em;
+    }
+    
+    
+    
+    audio {
+       margin: 3em 0; 
 }
 
-@media only screen and (max-width: 480px) {
-	.span_1 {
-		width: 100%;
-	}
-    
-    #banner {
-        padding: 0px;
-        margin: 0px;
-        height: 77px;
-        width: 400px;
-        background-image: url('/images/logo-small.png');
-        background-repeat: no-repeat;
-    }
-    
+    .audiotext {
+       padding: 0 1em 2em 1em;
+}
+}
+
+/*Smartphone Landscape*/
+@media screen and (max-device-width: 480px) and (orientation: landscape){
     body {
-        width: 400px;
+        margin: .5em;
+        padding: 1em;
+    }
+    
+    .about {
+        margin: 5em 0 0 0;
+    }
+    
+    .bio {
+        padding: .5em 1em 2em .5em;
+    }
+    
+    audio {
+        margin: 1em 0;
+    }
+    
+    .audiotext {
+        padding: 0 1em 2em 1em;
     }
 }
 
-    #div1 {
-        width:350px;
-        height:70px;
-        padding:10px;
-        border:1px solid #aaaaaa;
+/*Tablet*/
+@media screen and (min-device-width: 321px) and (max-device-width: 768px) and (orientation: portrait) {
+    body {
+        margin: 2em;
     }
-
-*/
-
+    
+    .about {
+        margin: 3em 0 0 0;
+    }
+}

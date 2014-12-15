@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="the_dream_diaries">
+<div class="episodes">
             <h1>The Dream Diaries Characters</h1>
             <p>The list below contains a description of the main characters of The Dream Diaries.</p>
             <dl>

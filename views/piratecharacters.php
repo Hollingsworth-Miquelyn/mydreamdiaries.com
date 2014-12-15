@@ -1,6 +1,6 @@
 <?php
 ?>
-<div class="pirate_characters">
+<div class="episodes">
             <h1>Pirate Characters</h1>
             <p>The list below contains a description of the main characters of the Pirate episodes.</p>
             <dl>

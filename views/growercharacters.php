@@ -1,6 +1,6 @@
 <?php
 ?>
-<div class="grower_characters">
+<div class="episodes">
             <h1>Grower Characters</h1>
             <p>The list below contains a description of the main characters of the Grower episodes.</p>
             <dl>

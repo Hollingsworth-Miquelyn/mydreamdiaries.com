@@ -1,4 +1,4 @@
-<div class="siteplan">
+<div class="episodes">
     <h1>My Dream Diaries</h1>
     <h2>Site Purpose</h2>
     <p>This website is for an author who wants to promote his first novel.  It will display episodic stories that help build the 

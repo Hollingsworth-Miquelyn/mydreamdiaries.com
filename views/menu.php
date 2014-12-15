@@ -1,6 +1,7 @@
 <?php
 ?>
-
+<div class="episodes">
+    <h1>Menu</h1>
 <ul>
 	<li><a href="/?action=myinfo">Update my info</a></li>
 	<li><a href="/?action=blog">See new episodes</a></li>
@@ -17,4 +18,4 @@
 	</ul>
 
 <?php endif; ?>
-		
+</div>

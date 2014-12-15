@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="other_works">
+<div class="episodes">
             <h1>Other Works</h1>
             <p>Here is a sneak peek at David's most recent inspirational short story.</p>
             <h2>An Innkeeper's Journal: Excerpts Translated by Thomas Hennery</h2>

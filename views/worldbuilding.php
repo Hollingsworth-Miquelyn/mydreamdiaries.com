@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="world_building">
+<div class="episodes">
             <h1>World Building</h1>
             <p>World building is the most fun and most infuriating part of any new 
             story. Whether it's the relative reality of a detective story or the 

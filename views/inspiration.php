@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="inspiration">
+<div class="episodes">
             <h1>Inspiration for The Dream Diaries</h1>
             <p>The Dream Diaries are unlike anything I have written before. My 
             short stories ranged from thrillers and crime dramas to inspirational 

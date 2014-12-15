@@ -24,7 +24,8 @@
     </article>
     
     <?php } elseif ($action == 'pirateepisodes' || $action == 'growerepisodes') {?>
-        <a href="/?action=showepisode&amp;id=<?php echo $episode['id'];?>"><?php echo $episode["title"]; ?></a><br>
+    <h1>Episodes</h1>    
+    <a href="/?action=showepisode&amp;id=<?php echo $episode['id'];?>"><?php echo $episode["title"]; ?></a><br>
         
         <!--link goes  blank page-->
         <?php

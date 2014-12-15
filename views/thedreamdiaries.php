@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="synopsis">
+<div class="episodes">
             <h1>The Dream Diaries</h1>
             <h2>Synopsis</h2>
             <p>Rorie Fletch has to decide whether or not to trust the pirates. These
