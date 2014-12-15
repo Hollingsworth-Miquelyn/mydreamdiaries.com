@@ -150,7 +150,7 @@ function RegisterUser($first, $last, $email, $pass1, $pass2, &$message) {
 	
 	return $registered;
 }
-// check that names are at least 5 characters long
+// check that names are at least 3 characters long
 function ValidateNames($name, &$message) {
 	if (strlen($name) >= 3) {
 		return true;	
@@ -160,7 +160,7 @@ function ValidateNames($name, &$message) {
 	} 
 }
 function ValidateEmail($email, &$message) {
-	// hi@something.co.uk
+	
 	if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 		return true;
 	}
