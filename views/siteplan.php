@@ -45,7 +45,7 @@
         <h3>Home Page</h3>
         <ul>
             <li>Background informations</li>
-            <li>Last two blog posts</li>
+            
         </ul>
         <h3>Blog</h3>
         <ul>

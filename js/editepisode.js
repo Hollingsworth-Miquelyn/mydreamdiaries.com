@@ -23,11 +23,11 @@
                 messages: {
                     title: {
                         required: "Please provide a title",
-                        minlength: "The title must be at least 3 characters long"
+                        minlength: "The title must be at least 3 characters long."
                     },
                     episode: {
                         required: "Please write a story",
-                        minlength: "The must be at least 15 characters long"
+                        minlength: "The story must be at least 15 characters long."
                     },
                 },
                 submitHandler: function(form) {
@@ -69,11 +69,11 @@
                 messages: {
                     title: {
                         required: "Please provide a title",
-                        minlength: "The title must be at least 3 characters long"
+                        minlength: "The title must be at least 3 characters long."
                     },
                     episode: {
                         required: "Please write a story",
-                        minlength: "The must be at least 15 characters long"
+                        minlength: "The story must be at least 15 characters long."
                     },
                 },
                 submitHandler: function(form) {

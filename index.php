@@ -94,8 +94,10 @@ switch ($action)
 	$episode = htmlentities($_POST['episode']);
         $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_STRING);
 
+        if (ValidateTitleLength($title, $message) && ValidateEpisodeLength($episode, $message)) {
         $edit = editEpisode($id, $type, $title, $episode);
         $episodes = getAllEpisodes();
+        }
         include 'views/viewepisodes.php';
         break; 
     
@@ -173,7 +175,7 @@ switch ($action)
         $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
 	$episode = htmlentities($_POST['episode']);
        
-               
+        if (ValidateTitleLength($title, $message) && ValidateEpisodeLength($episode, $message)) {
         if ($type && $title && $episode && $itemId = addNewEpisode($type, $title, $episode))
         {
             
@@ -185,7 +187,7 @@ switch ($action)
         {
             echo"There was an error while posting. Please try again. ";
             include 'views/newepisode.php';
-        }
+        }}
                
         break;  
     
