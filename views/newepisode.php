@@ -1,6 +1,9 @@
 <?php
    
-?>
+?> 
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script src="/js/editepisode.js" ></script>
 
 <div id="newepisode">
     <form action="/?action=newepisodesubmit" method="POST" id="newepisodeform">

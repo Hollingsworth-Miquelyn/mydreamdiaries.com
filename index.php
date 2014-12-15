@@ -97,7 +97,7 @@ switch ($action)
         $edit = editEpisode($id, $type, $title, $episode);
         $episodes = getAllEpisodes();
         include 'views/viewepisodes.php';
-        break;
+        break; 
     
     case 'editusers':
         $page = (LoggedInUserIsAdmin()) ? 'views/editusers.php' : 'views/login.php';
@@ -245,6 +245,46 @@ switch ($action)
     
     case 'thedreamdiaries':
         include 'views/thedreamdiaries.php';
+        break;
+    
+    case 'updatepassword':
+        $oldpassword = $_POST['currentpassword'];
+        $newpassword = $_POST['newpassword'];
+        $newpassword2 = $_POST['repeatpassword'];
+        $message = '';
+        
+        if ($newpassword == $newpassword2)
+        {
+            $validMessage = '';
+            if (ValidatePassword($newpassword, $validMessage))
+            {
+                if (ValidateOldPassword($oldpassword))
+                {
+                    UpdateUserPassword($newpassword);
+                    $message = 'Password Updated';
+                }
+                else
+                {
+                    $message = 'The old password did not match.';
+                }
+            }
+            else
+            {
+                $message = $validMessage;
+            }
+        }
+        else
+        {
+            $message = "The new passwords do not match";
+        }
+        
+        if ($userId = GetLoggedInUserId()) 
+        {
+            $page = 'views/myinfo.php';
+            $user = GetUser($userId);
+        }
+  
+        include 'views/myinfo.php';
         break;
     
     case 'viewallepisodes':

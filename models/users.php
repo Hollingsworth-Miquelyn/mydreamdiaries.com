@@ -166,10 +166,10 @@ function ValidateEmail($email, &$message) {
 	}
 	
 	$message .= "Invalid Email address";
-	return false;
+	return false; 
 }
 function ValidatePasswordLength($name, &$message) {
-	// TODO: make sure password contains UPPERCASE, lowercase, numbers, and special chars.
+	
 	
 	if (strlen($name) >= 6) {
 		return true;	

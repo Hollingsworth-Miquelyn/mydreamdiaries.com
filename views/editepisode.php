@@ -2,6 +2,9 @@
 
 ?>
 
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script src="/js/editepisode.js" ></script> 
+
 <div id="editepisode">
     <form action="/?action=editepisodessubmit" method="POST" id="editepisodeform">
         <input type="hidden" name="id" id="actiontype" value="<?php echo $episode["id"];?>" />
