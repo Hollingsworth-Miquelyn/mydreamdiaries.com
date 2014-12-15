@@ -113,3 +113,25 @@ function editEpisode($id, $type, $title, $episode)
 	
 	return false;
 }
+
+function ValidateTitleLength($title, &$message) {
+	
+	
+	if (strlen($title) >= 3) {
+		return true;	
+	} else {
+		$message .= "Title must be at least 3 characters long";
+		return false;
+	} 
+}
+
+function ValidateEpisodeLength($episode, &$message) {
+	
+	
+	if (strlen($episode) >= 15) {
+		return true;	
+	} else {
+		$message .= "Episode must be at least 15 characters long";
+		return false;
+	} 
+}
